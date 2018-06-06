@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "virtualMachineName": {
+            "value": "hlmwta-jmeter05"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_F8s_v2"
+        },
+        "adminUsername": {
+            "value": "rootadmin"
+        },
+        "virtualNetworkName": {
+            "value": "EastUS-Pipeline-Vnet"
+        },
+        "networkInterfaceName": {
+            "value": "hlmwta-jmeter05952"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "epmaptest01rgdiag"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/87e639ed-4597-4335-9024-f016c2fdab04/resourceGroups/epmap-test01-rg/providers/Microsoft.Storage/storageAccounts/epmaptest01rgdiag"
+        },
+        "subnetName": {
+            "value": "EastUS-Pipeline-TEST-Subnet"
+        }
+    }
+}
